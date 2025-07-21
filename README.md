@@ -84,9 +84,9 @@ import (
 	"net/http"
 
 	"connectrpc.com/connect"
-	"connectrpc.com/validate"
-	userv1 "connectrpc.com/validate/internal/gen/example/user/v1"
-	"connectrpc.com/validate/internal/gen/validate/example/v1/userv1connect"
+	"github.com/hmodi-ns1/validate-go"
+	userv1 "github.com/hmodi-ns1/validate-go/internal/gen/example/user/v1"
+	"github.com/hmodi-ns1/validate-go/internal/gen/validate/example/v1/userv1connect"
 )
 
 func main() {

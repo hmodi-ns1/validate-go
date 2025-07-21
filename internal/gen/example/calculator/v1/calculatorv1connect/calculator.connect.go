@@ -19,12 +19,13 @@
 package calculatorv1connect
 
 import (
-	connect "connectrpc.com/connect"
-	v1 "connectrpc.com/validate/internal/gen/example/calculator/v1"
 	context "context"
 	errors "errors"
 	http "net/http"
 	strings "strings"
+
+	connect "connectrpc.com/connect"
+	v1 "github.com/hmodi-ns1/validate-go/internal/gen/example/calculator/v1"
 )
 
 // This is a compile-time assertion to ensure that this generated file and the connect package are

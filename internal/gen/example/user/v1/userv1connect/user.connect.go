@@ -20,7 +20,7 @@ package userv1connect
 
 import (
 	connect "connectrpc.com/connect"
-	v1 "connectrpc.com/validate/internal/gen/example/user/v1"
+	v1 "github.com/hmodi-ns1/validate-go/internal/gen/example/user/v1"
 	context "context"
 	errors "errors"
 	http "net/http"

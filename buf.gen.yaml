@@ -6,7 +6,7 @@ managed:
       module: buf.build/bufbuild/protovalidate
   override:
     - file_option: go_package_prefix
-      value: connectrpc.com/validate/internal/gen
+      value: github.com/hmodi-ns1/validate-go/internal/gen
 plugins:
   - local: protoc-gen-go
     out: internal/gen
